@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte01: 'Passion One';
+    --fonte02: 'Verdana';
+    --fonte03: 'Sriracha';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Cabeçalho */
+
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+header h1{
+    padding-top: 50px;
+    font-family: var(--fonte01);
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+
+header p{
+    font-family: var(--fonte02);
+    padding-bottom: 50px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* Conteúdo */
+
+section{
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+section p{
+    padding-bottom: 1em;
+}
+
+
+
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+.imagem{
+    background-color: rgb(141, 141, 141);
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+    background-size: cover;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    
+}
+
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+
+}
+
+/* Rodapé */
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--fonte02);
+}
